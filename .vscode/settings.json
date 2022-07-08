@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "hid-event-codes.h": "c",
+        "fcntl.h": "c",
+        "type_traits": "c",
+        "stdint.h": "c",
+        "errno.h": "c",
+        "stdlib.h": "c",
+        "dlfcn.h": "c",
+        "hidraw-linux.h": "c",
+        "hid-vtable.h": "c",
+        "types.h": "c",
+        "hid-descriptor.h": "c",
+        "hid-event-codes-text.h": "c",
+        "string.h": "c",
+        "hid-descriptor-vtable.h": "c"
+    }
+}
