@@ -33,7 +33,7 @@ char* get_lib_path(const char* working_dir, const char* lib_name ){
     char * pch  = strrchr(path,'/'); // get index of last slash
     path[pch-path] = '\0'; // end string at index
 
-    char * lib_path =  malloc(strlen(lib_name) + strlen(path) + 1);
+    char * lib_path = (char *) malloc(strlen(lib_name) + strlen(path) + 1);
     if (lib_path == NULL) {
         fprintf(stderr, "malloc failed\n");
         exit(EXIT_FAILURE);

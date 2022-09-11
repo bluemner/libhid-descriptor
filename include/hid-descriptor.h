@@ -6,8 +6,8 @@
  * [Usage Tables](https://www.usb.org/document-library/hid-usage-tables-13)
  * PDF USB hut1_3_0.pdf https://usb.org/sites/default/files/hut1_3_0.pdf
  */
-#ifndef __BAGPIPE_HID_PROFILE_H__
-#define __BAGPIPE_HID_PROFILE_H__
+#ifndef __LIBHID_DESCRIPTOR_H__
+#define __LIBHID_DESCRIPTOR_H__
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>

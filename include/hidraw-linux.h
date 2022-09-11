@@ -7,6 +7,8 @@
  * #include <hidraw-linux.h>
  * @endcode
  */
+#ifndef __LIBHID_RAW_LINUX_H__
+#define __LIBHID_RAW_LINUX_H__
 
 #include <inttypes.h>
 #include <sys/ioctl.h>
@@ -143,3 +145,5 @@ void hidraw_collection_delete(hidraw_collection_t *collection);
  * @param[out] collection to print to stdout
  */
 void hidraw_collection_print(hidraw_collection_t *collection);
+
+#endif
